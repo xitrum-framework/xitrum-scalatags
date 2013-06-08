@@ -4,7 +4,7 @@ name := "xitrum-scalatags"
 
 version := "1.0-SNAPSHOT"
 
-scalaVersion := "2.10.1"
+scalaVersion := "2.10.2"
 
 scalacOptions ++= Seq(
   "-deprecation",
@@ -16,6 +16,6 @@ scalacOptions ++= Seq(
 // and it takes several hours to sync from Sonatype to Maven Central
 resolvers += "SonatypeReleases" at "http://oss.sonatype.org/content/repositories/releases/"
 
-libraryDependencies += "tv.cntt" %% "xitrum" % "2.5" % "provided"
+libraryDependencies += "tv.cntt" %% "xitrum" % "2.6" % "provided"
 
 libraryDependencies += "com.scalatags" %% "scalatags" % "0.1.1"
