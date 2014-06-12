@@ -17,17 +17,17 @@ publishArtifact in Test := false
 pomIncludeRepository := { _ => false }
 
 pomExtra := (
-  <url>http://ngocdaothanh.github.com/xitrum/</url>
+  <url>http://xitrum-framework.github.io/</url>
   <licenses>
     <license>
       <name>MIT</name>
-      <url>https://github.com/ngocdaothanh/xitrum-scalatags/blob/master/MIT-LICENSE</url>
+      <url>https://github.com/xitrum-framework/xitrum-scalatags/blob/master/MIT-LICENSE</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
   <scm>
-    <url>git@github.com:ngocdaothanh/xitrum-scalatags.git</url>
-    <connection>scm:git:git@github.com:ngocdaothanh/xitrum-scalatags.git</connection>
+    <url>git@github.com:xitrum-framework/xitrum-scalatags.git</url>
+    <connection>scm:git:git@github.com:xitrum-framework/xitrum-scalatags.git</connection>
   </scm>
   <developers>
     <developer>
